@@ -20,3 +20,15 @@
 #end
 
 #puts array
+
+
+
+#if x == y 
+#    puts "il y a #{x} tu avais la moitié de ton age"
+#else
+#    puts "il y a #{x} an tu avais #{y} an"
+#end
+
+
+
+

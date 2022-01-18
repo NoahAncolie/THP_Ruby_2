@@ -4,12 +4,5 @@ var = gets.chomp.to_i
 puts "à vos ordres voici #{var} étages :"
 
 var.times do |i|
-    var.times do |j|
-        if j <= i
-            print "#"
-        else
-            print " "
-        end
-    end
-    print "\n"
-end        
+    puts "#{' ' * (var - i - 1)}" "#{'#' * (i + 1)}"
+end
